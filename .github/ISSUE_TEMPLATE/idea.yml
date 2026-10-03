@@ -1,0 +1,27 @@
+name: Feature idea
+description: Suggest something Form Marshal or Form Marshal Pro could do.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue will be public.** Leave out patient information and details that identify your organization.
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options:
+        - Form Marshal
+        - Form Marshal Pro
+        - Not sure
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do that is hard or impossible today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea

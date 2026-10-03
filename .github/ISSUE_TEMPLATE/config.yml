@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem privately
+    url: https://github.com/bpmore/form-marshal-support/security/advisories/new
+    about: Security problems go here, not in a public issue.
